@@ -16,8 +16,19 @@ Post Master is a **Next.js** application designed to streamline and enhance your
 
 # Ensure the following environment variables are set in your .env file
 
-NEXTAUTH_URL=https://yourdomain.com # Base URL for authentication
-AUTH_SECRET=your-secret-key # Secret key for authentication
-AUTH_GOOGLE_ID=your-google-client-id # Google OAuth Client ID
-AUTH_GOOGLE_SECRET=your-google-client-secret # Google OAuth Client Secret
-DATABASE_URL=postgresql://user:pass@host/db # Connection string for the database
+# Base URL for authentication
+
+NEXTAUTH_URL=https://yourdomain.com
+
+# Secret key for authentication
+
+AUTH_SECRET=your-secret-key
+
+# Google OAuth Client ID & Client Secret
+
+AUTH_GOOGLE_ID=your-google-client-id  
+AUTH_GOOGLE_SECRET=your-google-client-secret
+
+# Connection string for the database
+
+DATABASE_URL=postgresql://user:pass@host/db
